@@ -12,6 +12,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>CrudApp-1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>CrudApp-1</name>
 	<description>Demo project for Spring Boot</description>
 

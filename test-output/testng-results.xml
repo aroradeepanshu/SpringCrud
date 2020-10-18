@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3034" started-at="2020-10-15T11:31:39 IST" finished-at="2020-10-15T11:31:42 IST">
+  <suite name="Default suite" duration-ms="6027" started-at="2020-10-18T11:56:33 IST" finished-at="2020-10-18T11:56:39 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3034" started-at="2020-10-15T11:31:39 IST" finished-at="2020-10-15T11:31:42 IST">
+    <test name="Default test" duration-ms="6027" started-at="2020-10-18T11:56:33 IST" finished-at="2020-10-18T11:56:39 IST">
       <class name="com.example.demo.RestAssuredApplicationTests">
-        <test-method status="PASS" signature="createUserAutomation()[pri:0, instance:com.example.demo.RestAssuredApplicationTests@6950e31]" name="createUserAutomation" duration-ms="2904" started-at="2020-10-15T11:31:39 IST" finished-at="2020-10-15T11:31:42 IST">
+        <test-method status="PASS" signature="createUserAutomation()[pri:0, instance:com.example.demo.RestAssuredApplicationTests@6950e31]" name="createUserAutomation" duration-ms="5821" started-at="2020-10-18T11:56:33 IST" finished-at="2020-10-18T11:56:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserAutomation -->
-        <test-method status="PASS" signature="getUserByIdAutomation()[pri:0, instance:com.example.demo.RestAssuredApplicationTests@6950e31]" name="getUserByIdAutomation" duration-ms="68" started-at="2020-10-15T11:31:42 IST" finished-at="2020-10-15T11:31:42 IST">
+        <test-method status="PASS" signature="getUserByIdAutomation()[pri:0, instance:com.example.demo.RestAssuredApplicationTests@6950e31]" name="getUserByIdAutomation" duration-ms="72" started-at="2020-10-18T11:56:39 IST" finished-at="2020-10-18T11:56:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUserByIdAutomation -->
-        <test-method status="PASS" signature="getUsersAutomation()[pri:0, instance:com.example.demo.RestAssuredApplicationTests@6950e31]" name="getUsersAutomation" duration-ms="27" started-at="2020-10-15T11:31:42 IST" finished-at="2020-10-15T11:31:42 IST">
+        <test-method status="PASS" signature="getUsersAutomation()[pri:0, instance:com.example.demo.RestAssuredApplicationTests@6950e31]" name="getUsersAutomation" duration-ms="52" started-at="2020-10-18T11:56:39 IST" finished-at="2020-10-18T11:56:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUsersAutomation -->

@@ -11,7 +11,7 @@
 //public class RestAssuredApplicationTests {
 //	
 ////	@Value("${base_url}")
-//	private String baseURL = "http://localhost:8080/";
+//	private String baseURL = "http://localhost:7072/";
 //
 //	@Test
 //	public void getUsersAutomation() {

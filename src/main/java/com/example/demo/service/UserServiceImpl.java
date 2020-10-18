@@ -28,8 +28,12 @@ public class UserServiceImpl implements UserService {
 	
 	Properties messageProp = new Properties();
 	{try{
-		InputStream input = new FileInputStream("src/main/resources/message.properties");
-		messageProp.load(input);
+//		InputStream input = new FileInputStream("src/main/resources/message.properties");
+//		messageProp.load(input);
+		
+		InputStream in = getClass().getResourceAsStream("../../../../message.properties");
+		messageProp.load(in);
+		
 	}catch(Exception e){
 		log.error(e.getMessage() + "\n");
 	}}

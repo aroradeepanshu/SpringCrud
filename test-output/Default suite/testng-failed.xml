@@ -5,6 +5,8 @@
     <classes>
       <class name="com.example.demo.RestAssuredApplicationTests">
         <methods>
+          <include name="createUserAutomation"/>
+          <include name="getUserByIdAutomation"/>
           <include name="getUsersAutomation"/>
         </methods>
       </class> <!-- com.example.demo.RestAssuredApplicationTests -->

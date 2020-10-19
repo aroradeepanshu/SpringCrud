@@ -32,7 +32,7 @@ public class SwaggerConfig {
 				                      "User Resource CRUD Api",
 				                       "1.0",
 				                       "Terms of service",
-				                       new Contact("Comviva","comviva.com","deepanshu.arora@comviva.com"),
+				                       new Contact("Comviva","comviva.com","trainees@comviva.com"),
 				                       "Apache License Version 2.0",
 				                       "http://www.apache.org/license.html");
 		

@@ -48,7 +48,7 @@ public class UserServiceImpl implements UserService {
 	
 	@Override
 	public GetAllUserResponse getUsers() {
-		
+		log.info("Entered getUsers function");
 		GetAllUserResponse getAllUserResponse = new GetAllUserResponse(); 
 		try {
 			List<User> userList = userDao.findAll();
@@ -67,6 +67,7 @@ public class UserServiceImpl implements UserService {
 			getAllUserResponse.setMessage(messageProp.getProperty("server_error"));
 			getAllUserResponse.setUserList(null);
 		}
+		log.info("returning getAllUserResponse");
 		return getAllUserResponse;
 	}
 
@@ -74,15 +75,18 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public GetUserByIdResponse getUserById(String id) {
-		
+		log.info("entered getUserByID");
 		int parsedId;
 		
 		try {
+			log.info("parsing id");
 			parsedId = Integer.parseInt(id);
 		}catch(Exception e) {
+			log.error(e.getMessage());
 			getUserByIdResponse.setStatus(400);
 			getUserByIdResponse.setMessage(messageProp.getProperty("invalid_id_msg"));
 			getUserByIdResponse.setUser(null);
+			log.error("Unable to parse returning null user");
 			return getUserByIdResponse;
 		}
 		try {
@@ -112,13 +116,13 @@ public class UserServiceImpl implements UserService {
 			}
 		
 		
-		
+		log.info("returning getUserByIdResponse and exiting function");
 		return getUserByIdResponse;
 	}
 
 	@Override
 	public CreateUserResponse createUser(CreateUserRequest reqObj) {
-		
+		log.info("entered CreateUserResponse");
 		try {
 		
 		String name = reqObj.getName();
@@ -181,6 +185,7 @@ public class UserServiceImpl implements UserService {
 			createUserResponse.setStatus(500);
 			createUserResponse.setUser(null);
 		}
+		log.info("returning from CreateUser");
 		return createUserResponse;
 	}
 

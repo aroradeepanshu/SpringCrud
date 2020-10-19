@@ -55,7 +55,7 @@
 // 		reqObj.setEmail("mohan@test.com");
 // 		reqObj.setGender("male");
 // 		reqObj.setType("user");
-//		
+////		
 //		given()
 //		.contentType("application/json")
 //		.body(reqObj)
